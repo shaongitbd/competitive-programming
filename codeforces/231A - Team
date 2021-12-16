@@ -1,0 +1,28 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+int n,sol=0;
+cin >> n;
+while(n--){
+   int arrsum=0;
+   int arr[3];
+   for(int i=0;i<3;i++){
+
+    cin >> arr[i];
+
+   }
+   arrsum = accumulate(arr,arr+3,0);
+
+
+   if (arrsum>1){
+
+    sol +=1;
+
+   }
+
+
+}
+ cout << sol<<endl;
+
+}
