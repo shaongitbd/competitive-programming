@@ -1,0 +1,21 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+
+int l,b,w,i=1;
+
+cin>>l;
+cin>>b;
+
+while(l<b){
+    l = l*3;
+    b = b*2;
+    if (l>b){
+        break;
+    }
+    i++;
+}
+
+cout<< i<< endl;
+}
