@@ -1,1 +1,1 @@
-All my recently coded problem solutions :)
+All of my recently coded problem solutions :)
