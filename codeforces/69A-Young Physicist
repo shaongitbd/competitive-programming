@@ -1,0 +1,33 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+
+int n=0, sumco1=0, sumco2=0,sumco3=0;
+
+cin >>n;
+
+while(n--){
+
+    int arr[3];
+    for (int i=0;i<3;i++){
+
+        cin >> arr[i];
+    }
+    sumco1 += arr[0];
+    sumco2 += arr[1];
+    sumco3 += arr[2];
+
+
+}
+if (sumco1==0 && sumco2==0 && sumco3==0){
+
+  cout<<"YES"<<endl;
+}
+else{
+
+  cout<<"NO"<<endl;
+}
+
+
+}
