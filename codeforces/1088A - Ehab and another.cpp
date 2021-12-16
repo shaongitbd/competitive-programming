@@ -1,13 +1,12 @@
 // Weird Code that came to my mind after seeing this problem
 
-```python
 
-Please Note that this problem accepts solutions like 18 2 , 20 2, 20,20 when the input = 20. 
-```
+// Please Note that this problem accepts solutions like 18 2 , 20 2, 20,20 when the input = 20. 
 
-Solution 1:
 
-```C++
+// Solution 1:
+
+
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -57,7 +56,7 @@ else{
 
 }
 
-```
+
 
 
 
